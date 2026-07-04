@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand Colors */
+  --primary: #065F46;
+  --secondary: #047857;
+  --accent: #D4AF37;
+
+  /* Backgrounds */
+  --background: #F9FAFB;
+  --surface: #FFFFFF;
+
+  /* Text */
+  --heading: #1F2937;
+  --text: #6B7280;
+
+  /* Border */
+  --border: #E5E7EB;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+}
